@@ -1,0 +1,89 @@
+
+            
+            body{padding:20em;
+                height:30vw;
+                background-repeat: no-repeat;
+                background-position: center;
+            background-color:black;
+            background-image:url('t.jpg');
+            }
+            #score{
+                text-align: center;
+                position: absolute;
+                color:black;
+                background-color: white;
+                top: 33%;
+                width: 60%;
+            }
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .container > div {
+            margin: 0.5em;
+            padding: 2em;
+        }
+        
+        .container .flex-1 {
+            width: 1000px;
+        }
+    
+        
+        table {
+            border: 7px double orangered;
+            border-collapse: separate;
+            margin: auto;
+            margin-top: -1em;
+        }
+        
+        
+        td {
+            border: 1px solid rgb(255,178,0);
+            
+            padding: 0.5em;
+        }
+        td {
+            padding: 5em;
+            background-color: rgb(66, 48, 32);
+        }
+        /**#tile-1:hover {
+            background-color: red;
+        }**/
+            #message {
+                text-align: center;
+                position: absolute;
+                color: red;
+                top: 20%;
+                width: 60%;
+                
+
+        }
+            #play{
+                top: 40%;
+                width: 60%;
+                text-align: center;
+                position: absolute;
+                height: 4em;
+                width: 6em;
+                background-color: blue;
+                color: white;
+            }
+            #ss{
+               
+                text-align : center;
+                position: absolute;
+                top:10%;
+                width: 60%;
+                transform:translateY(-50%);
+                color: white;
+                background color: orange;
+            }
+            #round-heading {
+                text-align: center;
+                position: absolute;
+                color:black;
+                background-color: white;
+                top: 25%;
+                width: 60%;
+            }
